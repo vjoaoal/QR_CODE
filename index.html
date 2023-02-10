@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+      position: center center;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(212, 45%, 89%);
+      height: 98%;
+      width: 98%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .conteiner{
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+      height: 75vh;
+      width: 23vw;
+      position: relative;
+      box-shadow: 0px 0px 1em #666;
+      -webkit-box-shadow: 0px 0px 1em #666;
+      -moz-box-shadow: 0px 0px 1em #666;
+    }
+    img{
+      height: 45vh;
+      width: 20vw;
+      border-radius: 30px;
+      padding-top: 9px;
+      padding-left: 5px;
+      padding-right: 0px;
+      position: relative;
+      top: 1.5vh;
+      left: 18px;
+    }
+
+    h3{
+      text-align: center;
+      color:hsl(218, 44%, 22%) ;
+      
+    }
+
+    p{
+      color: hsl(220, 15%, 55%) ;
+      padding: 8%;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    @media screen and (max-width: 500px) {
+      body{
+      background-color: hsl(212, 45%, 89%);
+      height: 98%;
+      width: 98%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .conteiner{
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+      height: 90vh;
+      width: 80vw;
+      position: relative;
+      box-shadow: 0px 0px 1em #66666612;
+      -webkit-box-shadow: 0px 0px 1em #66666640;
+      -moz-box-shadow: 0px 0px 1em #66666624;
+    }
+
+    img{
+      height: 55vh;
+      width: 70vw;
+      border-radius: 30px;
+      padding-top: 3vh;
+      padding-left: 0vw;
+      position: relative;
+      
+    }
+
+    h3{
+      text-align: center;
+      color:hsl(218, 44%, 22%) ;
+      
+    }
+
+    p{
+      color: hsl(220, 15%, 55%) ;
+      padding: 8%;
+      text-align: center;
+      font-size: 15px;
+    }
+    }
+    
+
+  </style>
+</head>
+<body>
+
+  <div class="conteiner">
+    <div class="conteiner-modal">
+
+      <img src="./images/image-qr-code.png" alt="">
+
+      <h3>QR-CODE aleatório</h3>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consequuntur?</p>
+    </div>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>  -->
+</body>
+</html>
